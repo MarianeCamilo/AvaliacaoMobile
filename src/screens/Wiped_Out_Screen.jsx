@@ -7,6 +7,13 @@ const songs = [
   { id: "12", title: "Daddy Issues", album: "Wiped Out!", year: 2015, url: "https://www.youtube.com/watch?v=_lMlsPQJs6U" },
   { id: "13", title: "R.I.P. 2 My Youth", album: "Wiped Out!", year: 2015, url: "https://www.youtube.com/watch?v=vKH-rcO6PA8" },
   { id: "14", title: "The Beach", album: "Wiped Out!", year: 2015, url: "https://www.youtube.com/watch?v=DujKJ1OaLQE" },
+  { id: "15", title: "Wiped Out!", album: "Wiped Out!", year: 2015, url: "https://youtu.be/Z3UCVQIjAJ8?si=zfw10Prjax_0P8IQ" },
+  { id: "16", title: "Single", album: "Wiped Out!", year: 2015, url: "https://youtu.be/9H7Aj8pLQMQ?si=Rd5jLnUkcX6ACN7Z" },
+  { id: "17", title: "Cry Baby", album: "Wiped Out!", year: 2015, url: "https://youtu.be/mzhBCQ22_UA?si=mUPMAVxmE39J-ZDH" },
+  { id: "18", title: "Prey", album: "Wiped Out!", year: 2015, url: "https://youtu.be/2IE3T9mcqyM?si=pY6Gt9xqX3tQoiOO" },
+  { id: "19", title: "Baby Came Home 2 / Valentines", album: "Wiped Out!", year: 2015, url: "https://youtu.be/c0V3OKDigeY?si=VEsW795CrmFwhCHz" },
+  { id: "20", title: "Ferrari", album: "Wiped Out!", year: 2015, url: "https://youtu.be/Nbi7CXHzbrQ?si=-owZdy67CxoRkqjF" },
+  { id: "21", title: "Greetings From Califournia", album: "Wiped Out!", year: 2015, url: "https://youtu.be/IH0Jb2yWpDA?si=68xV084NQuk_0i3J" },
 ];
 
 export default function Wiped_Out_Screen({ navigation }) {

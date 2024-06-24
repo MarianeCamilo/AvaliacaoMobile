@@ -4,7 +4,17 @@ import { Provider, Card, Paragraph, Surface, Appbar } from "react-native-paper";
 import * as Linking from 'expo-linking';
 
 const songs = [
-  { id: "", title: "Nervous", album: "Hard To Imagine", year: 2018, url: "https://www.youtube.com/watch?v=XTDH7gSqwiQ" },
+  { id: "22", title: "Nervous", album: "Hard To Imagine", year: 2018, url: "https://www.youtube.com/watch?v=XTDH7gSqwiQ" },
+  { id: "23", title: "Compass", album: "Hard To Imagine", year: 2018, url: "https://youtu.be/j56dEcq7ryo?si=Bu9uBdLHU84vus31" },
+  { id: "24", title: "24/7", album: "Hard To Imagine", year: 2018, url: "https://youtu.be/pEue3Tchdvc?si=7wSXZiYyTPnAEart" },
+  { id: "25", title: "Sadderdaze", album: "Hard To Imagine", year: 2018, url: "https://youtu.be/ALwoKots_sg?si=EVt4_E1WKM1L7UVP" },
+  { id: "26", title: "", album: "Hard To Imagine", year: 2018, url: "https://www.youtube.com/watch?v=XTDH7gSqwiQ" },
+  { id: "27", title: "", album: "Hard To Imagine", year: 2018, url: "https://www.youtube.com/watch?v=XTDH7gSqwiQ" },
+  { id: "28", title: "", album: "Hard To Imagine", year: 2018, url: "https://www.youtube.com/watch?v=XTDH7gSqwiQ" },
+  { id: "29", title: "", album: "Hard To Imagine", year: 2018, url: "https://www.youtube.com/watch?v=XTDH7gSqwiQ" },
+  { id: "30", title: "", album: "Hard To Imagine", year: 2018, url: "https://www.youtube.com/watch?v=XTDH7gSqwiQ" },
+  { id: "31", title: "", album: "Hard To Imagine", year: 2018, url: "https://www.youtube.com/watch?v=XTDH7gSqwiQ" },
+  { id: "32", title: "", album: "Hard To Imagine", year: 2018, url: "https://www.youtube.com/watch?v=XTDH7gSqwiQ" },
 ];
 
 export default function Hard_To_Imagine_Screen({ navigation }) {
