@@ -3,14 +3,14 @@ import { View, FlatList, StyleSheet, TouchableOpacity } from "react-native";
 import { Provider, Card, Surface, Appbar } from "react-native-paper";
 
 const albums = [
-  { id: "1", title: "I Love You", year: 2013 },
-  { id: "2", title: "Wiped Out!", year: 2015 },
-  { id: "3", title: "Hard To Imagine", year: 2018 },
+  { id: "1", title: "I Love You", year: 2013, screen: "I Love You" },
+  { id: "2", title: "Wiped Out!", year: 2015, screen: "Wiped Out!" },
+  { id: "3", title: "Hard To Imagine", year: 2018, screen: "Hard To Imagine" },
 ];
 
 export default function AlbumsScreen({ navigation }) {
-  const handlePress = (album) => {
-    navigation.navigate("Songs", { album });
+  const handlePress = (screen) => {
+    navigation.navigate(screen);
   };
 
   return (
@@ -23,7 +23,7 @@ export default function AlbumsScreen({ navigation }) {
           data={albums}
           keyExtractor={(item) => item.id}
           renderItem={({ item }) => (
-            <TouchableOpacity onPress={() => handlePress(item)}>
+            <TouchableOpacity onPress={() => handlePress(item.screen)}>
               <Card style={styles.card}>
                 <Card.Title title={item.title} subtitle={`Year: ${item.year}`} />
               </Card>

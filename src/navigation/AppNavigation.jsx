@@ -9,6 +9,9 @@ import SplashScreen from "../screens/SplashScreen";
 import AccountScreen from "../screens/AccountScreen";
 import NoteScreen from "../screens/NoteScreen";
 import MusicScreen from "../screens/AlbumsScreen";
+import I_Love_You_Screen from "../screens/I_Love_You_Screen";
+import Wiped_Out_Screen from "../screens/Wiped_Out_Screen";
+import Hard_To_Imagine_Screen from "../screens/Hard_To_Imagine";
 
 const Stack = createNativeStackNavigator();
 const Tabs = createMaterialBottomTabNavigator();
