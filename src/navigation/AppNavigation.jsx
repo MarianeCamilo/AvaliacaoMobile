@@ -8,7 +8,7 @@ import RegisterScreen from "../screens/RegisterScreen";
 import SplashScreen from "../screens/SplashScreen";
 import AccountScreen from "../screens/AccountScreen";
 import NoteScreen from "../screens/NoteScreen";
-import MusicScreen from "../screens/Music.Screen";
+import MusicScreen from "../screens/AlbumsScreen";
 
 const Stack = createNativeStackNavigator();
 const Tabs = createMaterialBottomTabNavigator();
@@ -65,10 +65,10 @@ const TabNavigator = () => {
       />
       <Tabs.Screen
         options={{
-          tabBarLabel: "Music",
-          tabBarIcon: "music",
+          tabBarLabel: "Álbuns",
+          tabBarIcon: "albuns",
         }}
-        name="MusicScreen"
+        name="AlbumsScreen"
         component={MusicScreen}
       />
       <Tabs.Screen
