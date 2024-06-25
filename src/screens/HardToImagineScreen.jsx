@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { View, FlatList, StyleSheet, TouchableOpacity } from "react-native";
 import { Provider, Card, Paragraph, Surface, Appbar } from "react-native-paper";
 import * as Linking from 'expo-linking';

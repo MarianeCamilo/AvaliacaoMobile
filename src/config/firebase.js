@@ -1,6 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import { getAuth } from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -12,8 +13,8 @@ const firebaseConfig = {
   projectId: "avaliacaomobile-43ad1",
   storageBucket: "avaliacaomobile-43ad1.appspot.com",
   messagingSenderId: "936034909168",
-  appId: "1:936034909168:web:30be505372857c55c03b35",
-  measurementId: "G-E2R9XZL18M"
+  appId: "1:936034909168:web:a8592fadbcb9cc04c03b35",
+  measurementId: "G-EZRF4YG4LB"
 };
 
 // Initialize Firebase

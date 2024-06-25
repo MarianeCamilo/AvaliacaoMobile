@@ -7,11 +7,12 @@ import RecoveryPassword from "../screens/RecoveryPassword";
 import RegisterScreen from "../screens/RegisterScreen";
 import SplashScreen from "../screens/SplashScreen";
 import AccountScreen from "../screens/AccountScreen";
-import NoteScreen from "../screens/NoteScreen";
+// import NoteScreen from "../screens/NoteScreen";
 import AlbumsScreen from "../screens/AlbumsScreen";
 import ILoveYouScreen from "../screens/ILoveYouScreen";
 import WipedOutScreen from "../screens/WipedOutScreen";
 import HardToImagineScreen from "../screens/HardToImagineScreen";
+// import ArtistInfoScreen from "../screens/ArtistInfoScreen";
 
 
 const Stack = createNativeStackNavigator();
@@ -40,7 +41,7 @@ const AlbumsNavigator = () => {
         headerShown: false,
       }}
     >
-      <Stack.Screen name="Albuns" component={AlbumsScreen} />
+      <Stack.Screen name="AlbumsScreen" component={AlbumsScreen} />
       <Stack.Screen name="ILoveYouScreen" component={ILoveYouScreen} />
       <Stack.Screen name="WipedOutScreen" component={WipedOutScreen} />
       <Stack.Screen name="HardToImagineScreen" component={HardToImagineScreen} />
@@ -74,14 +75,22 @@ const TabNavigator = () => {
         }}
         component={HomeScreen}
       />
-      <Tabs.Screen
+      {/* <Tabs.Screen
         options={{
           tabBarLabel: "Notes",
           tabBarIcon: "note",
         }}
         name="NotesScreen"
         component={NoteScreen}
-      />
+      /> */}
+      {/* <Tabs.Screen
+        options={{
+          tabBarLabel: "Pesquisar Artistas",
+          tabBarIcon: "search",
+        }}
+        name="ArtistInfoScreen"
+        component={ArtistInfoScreen}
+      /> */}
       <Tabs.Screen
         options={{
           tabBarLabel: "Álbuns",
