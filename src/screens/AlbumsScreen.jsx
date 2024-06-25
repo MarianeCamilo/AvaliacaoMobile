@@ -8,6 +8,15 @@ const albums = [
   { id: "3", title: "Hard To Imagine", year: 2018, screen: "Hard To Imagine" },
 ];
 
+// navigation.navigate("ILoveYouScreen");
+
+
+// <Button onPress={() => navigation.navigate("LoginScreen")}>
+//           Já tem uma conta? Faça login
+//         </Button>
+
+
+
 export default function AlbumsScreen({ navigation }) {
   const handlePress = (screen) => {
     navigation.navigate(screen);
@@ -17,7 +26,7 @@ export default function AlbumsScreen({ navigation }) {
     <Provider>
       <Surface style={styles.container}>
         <Appbar.Header>
-          <Appbar.Content title="The Neighbourhood Albums" />
+          <Appbar.Content title="The Neighbourhood Albuns" />
         </Appbar.Header>
         <FlatList
           data={albums}

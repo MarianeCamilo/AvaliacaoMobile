@@ -16,7 +16,7 @@ const songs = [
   { id: "31", title: "You Get Me So High", album: "Hard To Imagine", year: 2018, url: "https://youtu.be/jCSvOtUaI8s?si=YWoS6TrCyR7RRZJG" },
 ];
 
-export default function Hard_To_Imagine_Screen({ navigation }) {
+export default function HardToImagineScreen({ navigation }) {
   const handlePress = (url) => {
     Linking.openURL(url);
   };

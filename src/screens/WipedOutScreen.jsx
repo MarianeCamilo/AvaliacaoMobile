@@ -16,7 +16,7 @@ const songs = [
   { id: "21", title: "Greetings From Califournia", album: "Wiped Out!", year: 2015, url: "https://youtu.be/IH0Jb2yWpDA?si=68xV084NQuk_0i3J" },
 ];
 
-export default function Wiped_Out_Screen({ navigation }) {
+export default function WipedOutScreen({ navigation }) {
   const handlePress = (url) => {
     Linking.openURL(url);
   };

@@ -17,7 +17,7 @@ const songs = [
   { id: "11", title: "Float", album: "I Love You", year: 2013, url: "https://youtu.be/Bd2yNVan0sc?si=98XY4FTchNBmLspC" },
 ];
 
-export default function I_Love_You_Screen({ navigation }) {
+export default function ILoveYouScreen({ navigation }) {
   const handlePress = (url) => {
     Linking.openURL(url);
   };

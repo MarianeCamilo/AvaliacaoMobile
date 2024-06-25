@@ -8,10 +8,11 @@ import RegisterScreen from "../screens/RegisterScreen";
 import SplashScreen from "../screens/SplashScreen";
 import AccountScreen from "../screens/AccountScreen";
 import NoteScreen from "../screens/NoteScreen";
-import MusicScreen from "../screens/AlbumsScreen";
-import I_Love_You_Screen from "../screens/I_Love_You_Screen";
-import Wiped_Out_Screen from "../screens/Wiped_Out_Screen";
-import Hard_To_Imagine_Screen from "../screens/Hard_To_Imagine";
+import AlbumsScreen from "../screens/AlbumsScreen";
+import ILoveYouScreen from "../screens/ILoveYouScreen";
+import WipedOutScreen from "../screens/WipedOutScreen";
+import HardToImagineScreen from "../screens/HardToImagineScreen";
+
 
 const Stack = createNativeStackNavigator();
 const Tabs = createMaterialBottomTabNavigator();
@@ -29,6 +30,21 @@ export default function AppNavigation() {
         <Stack.Screen name="TabNavigator" component={TabNavigator} />
       </Stack.Navigator>
     </NavigationContainer>
+  );
+}
+
+const AlbumsNavigator = () => {
+  return (
+    <Stack.Navigator
+      screenOptions={{
+        headerShown: false,
+      }}
+    >
+      <Stack.Screen name="Albuns" component={AlbumsScreen} />
+      <Stack.Screen name="ILoveYouScreen" component={ILoveYouScreen} />
+      <Stack.Screen name="WipedOutScreen" component={WipedOutScreen} />
+      <Stack.Screen name="HardToImagineScreen" component={HardToImagineScreen} />
+    </Stack.Navigator>
   );
 }
 
@@ -72,7 +88,7 @@ const TabNavigator = () => {
           tabBarIcon: "albuns",
         }}
         name="AlbumsScreen"
-        component={MusicScreen}
+        component={AlbumsNavigator}
       />
       <Tabs.Screen
         options={{
